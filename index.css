@@ -1,0 +1,204 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #1fc8db;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%)
+}
+.header {
+    top:0;
+    left:0;
+    background-color:rgba(255, 255, 255, 0.6);
+    position: fixed;
+    width: 100%;
+}
+.header li,a {
+    display: inline;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.header a:hover {
+    color: grey;
+}
+.header a{
+    margin-right:30px;
+}
+.photo {
+    margin-top: 0;
+    text-align: center;
+    margin: 10px 0;
+    padding:10px 0;
+}
+.photo h1{
+    font-size: 5rem;
+    font-weight: 700 ;
+    color:blueviolet;
+    text-align: center;
+}
+div.photo h3{
+    position:absolute;
+    top: 15px;
+    right: 30px;
+    font-size:  100px; 
+    color:inherit;
+    font-style: italic;
+}
+#image {
+    margin: 0 auto;
+    height: 10cm;
+    width: 10cm;
+    border-radius: 50%;
+}
+#span{
+    display: none;
+    background-color:mistyrose;
+    color:black;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+div.photo:hover #span {
+    display: inline-block;
+}
+.container {
+    text-indent: 35px;
+    text-align: justify;
+    font-size: 45px;
+    font-weight: 100;
+    font-family: "roboto";
+    margin: 14px;
+}
+.edu {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 25px;
+}
+.edu h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.edu table{
+    margin: 0 auto;
+    width: 75%;
+    height: 22rem;
+}
+.edu table, th, td{
+    font-size: 32px;
+    /* border:2px solid black; */
+    border-collapse: collapse;
+    text-align: center;
+}
+div.edu th{
+    background-color:rgba(152,251,152,0.5);
+}
+div.edu tr:nth-child(odd) {
+    background-color:linen;
+}
+div.edu tr:nth-child(even) {
+    background-color: bisque;
+}
+div.edu tr:hover{
+    background-color:rgba(255, 255, 255, 0.3)
+}
+div.edu th:hover{
+    background-color:rgba(255, 255, 255, 0.3)
+}
+.skills {
+   margin-left: 60px;
+   margin-top: 70px;
+   font-family: 'Courier New', Courier, monospace;
+}
+.skills h1{
+    font-size: 45px;
+}
+.skills h3{
+    font-size: 35px;
+    font-weight: 550;
+}
+.skills li{
+    font-size: 25px;
+    font-weight: 400;
+    list-style-type:circle;
+}
+.skills span {
+    display: none;
+}
+.skills li:hover span{
+    display: inline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#speak li {
+    list-style-type: square;
+}
+.socialmedia {
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 60%;
+    text-align: center;
+}
+.socialmedia h1{
+    font-size: 45px;
+}
+.socialmedia li{
+    list-style-type: none;
+    font-size: 35px;
+    margin-right: 2px;
+    display: inline;
+}
+.socialmedia a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.socialmedia a:hover {
+    background-color: yellow;
+}
+.logos{
+    display: inline;
+    vertical-align: middle;
+}
+.logos img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;;
+}
+.footer{
+    border: 2px outset black;
+    width: 325px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+.footer h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+pre{
+    padding-right: 20px; 
+    text-align:left;
+    font-size: 25px;
+}
+.toparrow {
+    position: relative;
+}
+.toparrow a{
+    position: absolute;
+    right: 40px;
+    bottom: 17px;
+    font-size: 70px;
+    color: saddlebrown;
+}
+.toparrow img{
+height: 50px;
+width: 50px;
+border-radius: 25%;
+}
+.toparrow:hover img {
+    opacity: 0.5;
+}
+
+
