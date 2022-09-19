@@ -37,14 +37,6 @@ body{
     color:blueviolet;
     text-align: center;
 }
-div.photo h3{
-    position:absolute;
-    top: 15px;
-    right: 30px;
-    font-size:  100px; 
-    color:inherit;
-    font-style: italic;
-}
 #image {
     margin: 0 auto;
     height: 10cm;
