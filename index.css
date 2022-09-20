@@ -42,7 +42,7 @@ body{
     height: 10cm;
     width: 10cm;
     border-radius: 50%;
-    box-shadow: 0 0 50px #ccc;
+    box-shadow: 0 0 30px black;
 }
 #span{
     display: none;
