@@ -42,6 +42,7 @@ body{
     height: 10cm;
     width: 10cm;
     border-radius: 50%;
+    box-shadow: 0 0 50px #ccc;
 }
 #span{
     display: none;
@@ -122,7 +123,7 @@ div.edu th:hover{
 .skills li:hover span{
     display: inline;
     font-style: italic;
-    font-size: 24px;
+    font-size: 23px;
     font-weight:400;
 }
 
