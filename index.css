@@ -178,6 +178,16 @@ pre{
     text-align:left;
     font-size: 25px;
 }
+.contact p, .contact a{
+    font-size: 24px;
+    color:brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.contact a{
+    font-size: 22px;
+    text-decoration: underline;
+}
 .toparrow {
     position: relative;
 }
